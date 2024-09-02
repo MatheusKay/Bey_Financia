@@ -2,12 +2,14 @@ import { useState } from 'react'
 
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp'
+import AddIcon from '@mui/icons-material/Add'
 
 import Aside from '../../components/asideNav'
 import Header from '../../components/header'
+import Card from './cardObjetivo'
 
 import { ControlButton } from '../../Styles/global'
-import { Main, Section, SectionHeader } from './style'
+import { CardAdd, ContainerCards, Main, Section, SectionHeader } from './style'
 
 const Objetivo = () => {
   const [toggle, setToggle] = useState(false)
@@ -39,6 +41,14 @@ const Objetivo = () => {
               </div>
             )}
           </SectionHeader>
+          <ContainerCards>
+            <CardAdd>
+              <button>
+                <AddIcon fontSize="inherit" />
+              </button>
+            </CardAdd>
+            <Card />
+          </ContainerCards>
         </div>
       </Section>
     </Main>

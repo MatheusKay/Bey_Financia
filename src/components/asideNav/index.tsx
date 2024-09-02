@@ -47,19 +47,19 @@ const Aside = () => {
             </LinkItem>
           </li>
           <li>
-            <LinkItem isopen={isSidebarOpen} to="/dashboard">
+            <LinkItem isopen={isSidebarOpen} to="/planejamento">
               <EventNoteIcon />
               <p>Planejamentos</p>
             </LinkItem>
           </li>
           <li>
-            <LinkItem isopen={isSidebarOpen} to="/dashboard">
+            <LinkItem isopen={isSidebarOpen} to="/objetivo">
               <AccessTimeIcon />
               <p>Objetivos</p>
             </LinkItem>
           </li>
           <li>
-            <LinkItem isopen={isSidebarOpen} to="/dashboard">
+            <LinkItem isopen={isSidebarOpen} to="/categorias">
               <GridViewIcon />
               <p>Categorias</p>
             </LinkItem>

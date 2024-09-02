@@ -36,7 +36,7 @@ export const SectionHeader = styled.div<Props>`
     left: 0;
     background-color: rgb(${Colors.black});
     border-radius: 0 0 2em 2em;
-    borde: 1px solid rgb(${Colors.white});
+    border: 1px solid rgb(${Colors.white});
 
     button {
       width: 100%;
@@ -53,6 +53,33 @@ export const SectionHeader = styled.div<Props>`
       &:hover {
         background-color: rgba(${Colors.white}, 0.2);
       }
+    }
+  }
+`
+
+export const ContainerCards = styled.div`
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+`
+
+export const CardAdd = styled.div`
+  padding: 1.5em;
+  background-color: rgb(${Colors.black});
+  color: rgb(${Colors.white});
+  border-radius: 2em;
+
+  button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(${Colors.white});
+    cursor: pointer;
+
+    svg {
+      font-size: 4em;
     }
   }
 `
