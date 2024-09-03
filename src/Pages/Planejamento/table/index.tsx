@@ -33,11 +33,49 @@ const Table = () => {
         </thead>
         <tbody>
           <tr>
-            <td className="container_icon">
-              <Icon className="container_icon">
-                <CottageIcon fontSize="inherit" />
-              </Icon>
-              Casa
+            <td>
+              <div className="container_icon">
+                <Icon className="container_icon">
+                  <CottageIcon fontSize="inherit" />
+                </Icon>
+                Casa
+              </div>
+            </td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>
+              <ButtonTable>.</ButtonTable>
+              <ButtonTable>.</ButtonTable>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="container_icon">
+                <Icon className="container_icon">
+                  <CottageIcon fontSize="inherit" />
+                </Icon>
+                Casa
+              </div>
+            </td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>R$ 5.000,00</td>
+            <td>
+              <ButtonTable>.</ButtonTable>
+              <ButtonTable>.</ButtonTable>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="container_icon">
+                <Icon className="container_icon">
+                  <CottageIcon fontSize="inherit" />
+                </Icon>
+                Casa
+              </div>
             </td>
             <td>R$ 5.000,00</td>
             <td>R$ 5.000,00</td>

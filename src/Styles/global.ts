@@ -15,6 +15,11 @@ export const StyleGlobal = createGlobalStyle`
 
   body {
     font-family: "Roboto", system-ui;
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
   }
 
   .container {
