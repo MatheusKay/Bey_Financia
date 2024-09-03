@@ -7,6 +7,7 @@ import Conta from '../Pages/Conta'
 import Controle from '../Pages/Controle'
 import Planejamento from '../Pages/Planejamento'
 import Objetivo from '../Pages/Objetivo'
+import Categorias from '../Pages/Categorias'
 
 import { RootReducer } from '../store'
 
@@ -36,6 +37,10 @@ const RoutesPages = () => {
       <Route
         path="/objetivo"
         element={isAuthenticated ? <Objetivo /> : <Navigate to="/login" />}
+      />
+      <Route
+        path="/categorias"
+        element={isAuthenticated ? <Categorias /> : <Navigate to="/login" />}
       />
     </Routes>
   )
